@@ -13,9 +13,9 @@ public class Main {
         list.add(new Product("SP03", "Thước kẻ", 3000));
         
         // Thuế 10% (0.1), Ship 20k
-        list.add(new ImportedProduct("IMP01", "Bàn phím Logitech", 500000, 0.1, 20000)); 
+        list.add(new Imported("IMP01", "Bàn phím Logitech", 500000, 0.1, 20000)); 
         // Thuế 20% (0.2), Ship 50k
-        list.add(new ImportedProduct("IMP02", "Chuột Razer", 800000, 0.2, 50000));     
+        list.add(new Imported("IMP02", "Chuột Razer", 800000, 0.2, 50000));     
 
         // 2. In danh sách + giá cuối cùng (Hàm toString đã gánh việc này)
         System.out.println("=== DANH SÁCH SẢN PHẨM ===");
